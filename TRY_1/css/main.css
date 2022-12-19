@@ -1,0 +1,23 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    padding: 100px;
+    font-size:medium;
+
+}
+h1{
+    font-size: 40px;
+}
+body{
+    background-color: green;
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding-left: 20px;
+}
+table{
+    border:1px solid black;
+    margin: center;
+}
