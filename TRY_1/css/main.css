@@ -9,7 +9,7 @@ h1{
     font-size: 40px;
 }
 body{
-    background-color: black;
+    background-color: brown;
 }
 header{
     font-family: 'Courier New', Courier, monospace;
@@ -25,4 +25,5 @@ a{
 }
 footer{
     color:gold;
+    text-align: center;
 }
