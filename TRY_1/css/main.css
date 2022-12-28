@@ -9,7 +9,7 @@ h1{
     font-size: 40px;
 }
 body{
-    background-color: brown;
+    background-color: powderblue;
 }
 header{
     font-family: 'Courier New', Courier, monospace;
@@ -17,13 +17,21 @@ header{
     padding-left: 20px;
     background-color: red;
     text-align: center;
+    border: 2px solid red;
 }
 a{
-   font-style: italic; 
-   color: white;
+   font-style:normal; 
+   color:darkblue;
+   padding: 50px;
+   margin: 20px;
+   text-transform: uppercase;
    text-align: center;
 }
 footer{
-    color:gold;
     text-align: center;
+    font-family: black;
+    font-size: 100%;
+}
+img{
+    background-image: calc();
 }
