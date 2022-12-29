@@ -33,9 +33,10 @@ a:link {
     font-style:normal; 
     color:black;
     padding: 5px;
-    margin: 2px;
     text-transform: uppercase;
-    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
   }
   a:visited {
     color: green;
