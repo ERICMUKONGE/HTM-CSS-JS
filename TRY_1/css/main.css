@@ -19,14 +19,6 @@ header{
     text-align: center;
     border: 2px solid red;
 }
-a{
-   font-style:normal; 
-   color:darkblue;
-   padding: 50px;
-   margin: 20px;
-   text-transform: uppercase;
-   text-align: center;
-}
 footer{
     text-align: center;
     font-family: black;
@@ -35,3 +27,28 @@ footer{
 img{
     background-image: calc();
 }
+a:link {
+    background-color: black;
+    text-decoration: none;
+    font-style:normal; 
+    color:black;
+    padding: 5px;
+    margin: 2px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  a:visited {
+    color: green;
+    background-color: none;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: none;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: blac;
+    text-decoration: underline;
+  }
