@@ -27,9 +27,23 @@
         <img src="images/workstation.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 
         <map name="workmap">
-          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-          <area shape="rect" coords="290,172,333,250" alt="Table" href="table.htm">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" onclick="myFunction()">
+          <area shape="rect" coords="290,172,333,250" alt="Table" href="table.htm" onclick="myFunction()">
+          <area shape="default" coords="290,172,333,250" alt="Wall" href="wall.htm" onclick="myFunction()">
         </map>
+        <script>
+function myFunction() {
+  alert("You clicked a computer");
+}
+
+function myFunction() {
+  alert("You clicked a table");
+}
+
+  function myFunction() {
+  alert("You clicked a wall");
+}
+</script>
         <div>
             <p The <abbr title="Electronic(Devices)"> E : </abbr> represents electronic I.C.T devices like:</p>
                 <pre> 
