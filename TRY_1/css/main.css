@@ -10,7 +10,7 @@ h1{
 }
 body{
     background-color: powderblue;
-    /* background-image: url('images/workstation.jpg'); */
+    background-image: url('images/workstation.jpg/');
 }
 header{
     font-family: 'Courier New', Courier, monospace;
@@ -19,7 +19,7 @@ header{
     background-color: red;
     text-align: center;
     border: 2px solid red;
-    background-image: url('images/workstation.jpg');
+    background-image: url('images/workstation.jpg/');
 }
 footer{
     text-align: center;
