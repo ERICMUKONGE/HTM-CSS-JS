@@ -19,7 +19,7 @@ header{
     background-color: red;
     text-align: center;
     border: 2px solid red;
-    background-image: url('images/workstation.jpg/');
+    background-image: url('workstation.jpg');
 }
 footer{
     text-align: center;
