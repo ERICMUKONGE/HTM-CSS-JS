@@ -8,6 +8,11 @@ div{
 h1{
     font-size: 40px;
 }
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    }
 header{
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
