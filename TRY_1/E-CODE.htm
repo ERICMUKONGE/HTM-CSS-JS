@@ -7,19 +7,22 @@
     <link rel="stylesheet", type="text/css" href="css/main.css"/>
     <style>
         body {
-        background-image: url('images/LANGUAGE.jpg');
+        background-image: url('/TRY_1/images/E-CODE.jpg');
         }
         </style>
     <title>E-CODE</title>
 </head>
 <body>
-    <header>E-CODE</header>
-    <ul>
-        <li><a href="E-CODE.htm">E-CODE</a></li>
-        <li><a href="AFRICA.htm">AFRICA</a></li>
-        <li><a href="Pan_Africanism.htm">E-CODE</a></li>
-     </ul>
+    <header id="myheader">E-CODE</header>
+        <a href="AFRICA.htm">AFRICA</a>
+        <a href="Pan_Africanism.htm">PAN-AFRICANISM</a>
     <main>
+        
+    <div class="topnav">
+        <a class="" href="/TRY_1/software.html">SOFTWARE</a>
+        <a class="" href="/TRY_1/hardware.html">HARDWARE</a>
+        <a class="" href="/TRY_1/network.html">NETWORK</a>
+      </div>
         <img src="images/E-CODE.jpg" alt="TWO SIDES OF KNOWLEDGE" width="474" height="244">
         <p>A Black Man Named Philip Emeagwali Created The Internet</p>
         <blockquote cite="https://www.atlnightspots.com/a-black-man-named-philip-emeagwali-created-the-internet/">
@@ -52,17 +55,17 @@ function myFunction() {
   alert("You clicked a wall");
 }
 </script>
-        <div>
-            <p The <abbr title="Electronic(Devices)"> E : </abbr> represents electronic I.C.T devices like:</p>
-                <pre> 
-                    Phone
-                    Computers
-                    Lamps
-                    Tv_sets
-                </pre>
-        </div>
-        <div>
-            <p The <abbr title="CODE(languages)"> CODE : </abbr> represents different programming languages like:</P>
+<h1 id="devices">E(Electric Devices)</h1>
+<button onclick="displayResult()">List of Devices</button>
+<script>
+function displayResult() {
+    document.getElementById("devices").innerHTML = "Phone <br> Computers <br> Lamps <br>Tv_sets"
+}
+</script>
+</ul>
+</div>
+        <div class="cite">
+            <p class="m"  The <abbr title="CODE(languages)"> CODE : </abbr> represents different programming languages like:</P>
             <ul>
                     <li>PYTHON</li>
                     <li>JavaScript</li>
@@ -70,7 +73,7 @@ function myFunction() {
                     <li>JAVA</li>
             </ul>
         </div>
-        <div>
+        <div class="cite">
             <fieldset>MUKONGE</fieldset>
             <fieldset>SENJAH</fieldset>
             <fieldset>TEGULE</fieldset>
@@ -78,7 +81,7 @@ function myFunction() {
         </div>
     </main>
     <p><cite>THE ONLY </cite>way to reach out to us is strictly by email:</p>
-    <p><a href="mailto:someone@e_cleancode.com">Send mail</a></p>
+    <p class="m"><a href="mailto:someone@e_cleancode.com">Send mail</a></p>
 </body>
 <footer>
     <address>

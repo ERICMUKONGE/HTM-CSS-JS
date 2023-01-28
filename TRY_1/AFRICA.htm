@@ -7,42 +7,40 @@
     <link rel="stylesheet", type="text/css" href="css/main.css"/>
     <style>
         body {
-        background-image: url('images/AFRICAN_ROOTS.jpg');
+        background-image: url('images/AFRICA.jpg');
         }
         </style>
     <title>AFRICA</title>
 </head>
 <body>
-    <header>AFRICA</header>
-    <ul>
-   <li><a href="E-CODE.htm">E-CODE</a></li>
-   <li><a href="AFRICA.htm">AFRICA</a></li>
-   <li><a href="Pan_Africanism.htm">E-CODE</a></li>
-</ul>
+    <header id="myheader">AFRICA</header>
+    
+   <a href="E-CODE.htm">E-CODE</a>
+   <a href="Pan_Africanism.htm">PAN-AFRICANISM</a>
     <main>
-        <img src="images/AFRICA.jpg" alt="ORIGIN OF LIFE" width="351" height="474">
-        <div>
-            <ul style="list-style-type:none">
-                <h1>E(Electric Devices)</h1>
-                    <li>Phone</li>
-                    <li>Computers</li>
-                    <li>Lamps</li>
-                    <li>Tv_sets</li>
-            </ul>
-        </div>
-        <div>
+        <div class="topnav">
+            <a class="active" href="economic.html">ECONOMICS</a>
+            <a class="active" href="politics.html">POLITICS</a>
+            <a href="social.html">SOICAL</a>
+          </div>
+        <img src="images/AFRICAN_ROOTS.jpg" alt="ORIGIN OF LIFE" width="351" height="474">
+        <div class="cite" style="background-color:black;color:white;padding:20px;">
+            <ul>        
+    <div class="site">
             <ul>
-                <h1>CODE(Programming languages)</h1>
-                    <li>Python</li>
+                <h1 id="languages">CODE(Programming languages)</h1>
+                <button onclick="displayResult()">List of Languages</button>
+                <script>
+                function displayResult() {
+                    document.getElementById("languages").innerHTML = "Python <br> JavaScripts <br> PHP <br> JQUERY <br> JAVA"
+                }
+                </script>
                     <h6>With framesworks like</h6>
                     <ol start="4">
-                        <li>Flask</li>
-                        <li>Django</li>
-                        <li>kivy</li>
+                        <li>Flask</li><br>
+                        <li>Django</li><br>
+                        <li>kivy</li><br>
                     </ol>
-                    <li>JavaScript</li>
-                    <li>PHP</li>
-                    <li>JAVA</li>
             </ul>
             <bdo dir="rtl">This line will be written from right to left</bdo>
         </div>
