@@ -13,18 +13,19 @@
     <title>AFRICA</title>
 </head>
 <body>
-    <div class="topnav">
-    <a class="active" href="AFRICA.html">AFRICA</a>
-    <a class="active" href="E-CODE.html">E-CODE</a>
-    <a class="active" href="Pan_Africanism.html">PAN-AFRICANISM</a>
+    <div id="topnav" class="topnav">
+    <a  class="topnav" href="AFRICA.html">AFRICA</a>
+    <a  class="topnav" href="E-CODE.html">E-CODE</a>
+    <a  class="topnav" href="Pan_Africanism.html">PAN-AFRICANISM</a>
     </div>
+    <br>
     <main>
-        <div id="navbar" class="navbar">
-            <a class="active" href="economic.html">ECONOMICS</a>
-            <a class="active" href="politics.html">POLITICS</a>
-            <a class="active" href="social.html">SOICAL</a>
+        <div id="navbar" >
+            <a  href="economic.html">ECONOMICS</a>
+            <a  href="politics.html">POLITICS</a>
+            <a  href="social.html">SOICAL</a>
           </div>
-          <div class="site">
+          <div style="padding:15px 15px 2500px;font-size:30px;margin-top:30px;">
             <ul>
                 <h1 id="languages">AFRICA AS THE ORIGIN OF HUMANTITY ITSELF</h1>
                 <script>
@@ -40,6 +41,18 @@
                         <li>Homohub</li><br>
                         <li>kivy</li>
                     </ol>
+                    <script>
+                        var prevScrollpos = window.pageYOffset;
+                        window.onscroll = function() {
+                        var currentScrollPos = window.pageYOffset;
+                          if (prevScrollpos > currentScrollPos) {
+                            document.getElementById("navbar").style.top = "0";
+                          } else {
+                            document.getElementById("navbar").style.top = "-50px";
+                          }
+                          prevScrollpos = currentScrollPos;
+                        }
+                        </script>
             </ul>
         </div>
         <img src="images/AFRICAN_ROOTS.jpg" alt="ORIGIN OF LIFE" width="351" height="474">
