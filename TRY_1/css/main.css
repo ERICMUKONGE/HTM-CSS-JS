@@ -1,201 +1,99 @@
-*{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1{
-  font-size: 40px;
-}
-
 body{
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
-
-footer{
-  text-align: center;
-  font-family:verdana;
-  font-size: 100%;
-  color: darkred;
-}
-
-img{
-  background-image: calc();
-}
-
-address{
-  text-align: left;
-}
- 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  border: 5px solid black;
-  border-spacing: 15px;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 15px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-  color:black;
-}
-
-ol{
-  list-style-type: none;
-  margin: 10px;
-  padding: 15px;
-  overflow: hidden;
-  background-color: #333333;
-}
-
-li {
-  float: center;
-  text-align: center;
-}
-
-a{
-  background-color: lightblue;
+  font-family: monospace;
+  background-image: none;
+  background-color: #666;
+  text-decoration: dotted;
+  text-align: justify;
   color: black;
-  padding: 40px;
-  text-align: center;
-}
-
-a:link {
-  background-color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-style:normal;
-  color:rgb(0, 0, 0);
-  padding: 5px;
-  text-transform: uppercase;
+  padding: 20px;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  font-family: 'Courier New', Courier, monospace;
-  }
-
-a:visited {
-  color: green;
-  background-color: none;
-  text-decoration: none;
 }
 
-a:hover {
-  color: red;
-  background-color: none;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: blac;
-  text-decoration: underline;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-div{
-  font-size:medium;
-}
-  
-div.topnav {
-  overflow: hidden;
-  background-color:red;
-  text-align: left;
-  padding: 25px;
-}
-  
-.topnav div{
-  float: left;
-  color: black;
+.topnav {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration:dotted;
-  font-size: 30px;
-}
-  
-.topnav div:hover {
-  background-color: #ddd;
-  color: black;
-}
-  
-.topnav div.active {
-  background-color: #af4c4c;
-  color: white;
-  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 50px;
+  margin: auto;
+  text-decoration: solid;
+  background-color: black;
+  font-size: larger;
+  text-justify: auto;
 }
 
-q.uppercase{
-  text-transform: uppercase;
-}
+.topnav a {
 
-br.capitalise{
-  text-transform: capitalize;
-}
-
-  
-div.navbar {
-  overflow: hidden;
-  background-color:red;
-  text-align: left;
-  padding: 25px;
-}
-  
-.navbar div{
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration:dotted;
-  font-size: 30px;
-}
-  
-.navbar div:hover {
-  background-color: #ddd;
-  color: black;
-}
-  
-.navbar div.active {
-  background-color: #af4c4c;
-  color: white;
-  text-align: justify;
-}
-
-body {
-  margin: 0;
-  background-color: #f1f1f1;
-  font-family: Arial, Helvetica, sans-serif;
-}
-  
-#navbar {
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display:block;
-  transition: top 0.3s;
-}
-  
-#navbar a {
-  float: left;
-  display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
-  
-#navbar a:hover {
+
+.topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 400px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 400px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
